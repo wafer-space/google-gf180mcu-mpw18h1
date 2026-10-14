@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg width="8.044mm" height="10.424mm" viewBox="0 0 8.044 10.424" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect style="fill:#FFFFFF;fill-opacity:1" width="8.044" height="10.424" x="0" y="0" />
+    <rect style="fill:#bdac28;fill-opacity:1" width="3.932" height="5.122" x="0.06" y="0.06" />
+    <text xml:space="preserve" style="font-size:0.7px;font-family:'Adwaita Mono', 'Courier New', 'Lucida Console';text-anchor:middle;fill:#FFFFFF;fill-opacity:1" x="2.026" y="2.871">0001</text>
+    <rect style="fill:#bd2833;fill-opacity:1" width="3.932" height="5.122" x="4.052" y="0.06" />
+    <text xml:space="preserve" style="font-size:0.7px;font-family:'Adwaita Mono', 'Courier New', 'Lucida Console';text-anchor:middle;fill:#FFFFFF;fill-opacity:1" x="6.018" y="2.871">0002</text>
+    <rect style="fill:#28bdb2;fill-opacity:1" width="3.932" height="5.122" x="0.06" y="5.242" />
+    <text xml:space="preserve" style="font-size:0.7px;font-family:'Adwaita Mono', 'Courier New', 'Lucida Console';text-anchor:middle;fill:#FFFFFF;fill-opacity:1" x="2.026" y="8.053">0003</text>
+    <rect style="fill:#2871bd;fill-opacity:1" width="3.932" height="5.122" x="4.052" y="5.242" />
+    <text xml:space="preserve" style="font-size:0.7px;font-family:'Adwaita Mono', 'Courier New', 'Lucida Console';text-anchor:middle;fill:#FFFFFF;fill-opacity:1" x="6.018" y="8.053">0004</text>
+  </g>
+</svg>
