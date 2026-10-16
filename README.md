@@ -9,12 +9,13 @@ MPW-18H1 was a four-project GF180MCU micro-shuttle from the Google-sponsored pro
 <div align="center">
 <table width="100%">
   <tr>
+  <td width="50%"><img src="images/GFMPW18H1.png" width="95%"/></td>
   <td width="50%"><img src="images/GFMPW18H1.svg" width="95%"/></td>
   </tr>
 </table>
 </div>
 
-This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured.
+This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured. `images/GFMPW18H1.png` is rendered from it with `scripts/lay2img.py` and `reticle.lyp` from [reticle-stitcher](https://github.com/wafer-space/reticle-stitcher) (`--width 4096 --oversampling 4`), the same way as the ws-run images.
 
 In the layout, every cell of a die is renamed `<CODE>_<original name>` and each die's top cell is `<CODE>_caravel_<column>_<row>`. The code is the last four hex digits of the Efabless user ID.
 
