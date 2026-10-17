@@ -1,0 +1,9 @@
+slot_id,cell_name,kind,x_mm,y_mm,stdcell_count,transistor_count,sram_fraction
+0003,0003_caravel_0_0,densest_any,2.40,3.50,792,73133,0.000
+0003,0003_caravel_0_0,densest_sram_free,2.40,3.50,792,73133,0.000
+0001,0001_caravel_0_2,densest_any,0.00,0.00,0,0,0.000
+0001,0001_caravel_0_2,densest_sram_free,0.00,0.00,0,0,0.000
+0004,0004_caravel_2_0,densest_any,0.10,1.90,248,8689,0.000
+0004,0004_caravel_2_0,densest_sram_free,0.10,1.90,248,8689,0.000
+0002,0002_caravel_2_2,densest_any,1.60,3.00,7341,54594,0.000
+0002,0002_caravel_2_2,densest_sram_free,1.60,3.00,7341,54594,0.000
