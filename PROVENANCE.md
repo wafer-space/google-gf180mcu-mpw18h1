@@ -1,6 +1,6 @@
-# Provenance of Google / Efabless MPW-18H1
+# Provenance of Google MPW-18H1
 
-MPW-18H1 was a four-project GF180MCU micro-shuttle from the Google-sponsored program, run by Efabless; the final dies were committed in December 2023. Every project is a [Caravel](https://github.com/efabless/caravel-gf180mcu) die: the user design in `user_project_wrapper`, surrounded by the same management SoC, padframe and power routing on every die.
+MPW-18H1 was a private four-project GF180MCU test shuttle that Google ran on GlobalFoundries' private MPW service (GF's 18H1 run), not an Efabless Open MPW shuttle. The designs were submitted in February and March 2023 and the final dies committed in December 2023, in the same form as the Open MPW shuttles: Caravel dies, an Efabless-style `tapeout/` directory in each slot repository and Efabless-style project IDs. Every project is a [Caravel](https://github.com/efabless/caravel-gf180mcu) die: the user design in `user_project_wrapper`, surrounded by the same management SoC, padframe and power routing on every die.
 
 # How This Repository Was Generated
 
@@ -11,7 +11,7 @@ This repository presents the shuttle in the same format as the [wafer.space](htt
 3. `reticle_stitcher.py` placed the four dies from a 4×4 tile map as a 2 × 2 micro-shuttle, wrote `data/manifest.csv`, `images/GFMPW18H1.svg`, the project table in [README.md](README.md) and `images/GFMPW18H1.png` (rendered with `scripts/lay2img.py`), and added its own dummy fill to the saw streets between the dies.
 4. `images/GFMPW18H1.png` and `images/GFMPW18H1.svg` were then placed, unscaled relative to each other, in the top left corner of a 30.0 × 23.379 mm canvas, the size of the ws-run1 and ws-run2 reticle images, so that the dies show at the same scale as on those runs.
 
-Each die's top cell in the layout is `<CODE>_caravel_<column>_<row>`; the code is the last four hex digits of the Efabless user ID.
+Each die's top cell in the layout is `<CODE>_caravel_<column>_<row>`; the code is the last four digits of the project ID.
 
 # Sources
 
@@ -21,12 +21,15 @@ Each die's top cell in the layout is `<CODE>_caravel_<column>_<row>`; the code i
 - The published dies keep their PR boundary (0/0) shapes, including inside the standard cells; they were removed here (see above).
 - Neither the published dies nor the GFMPW-0 dies have a seal ring: there is no seal ring marker (167/5) and no COMP, contact or Metal1 ring at the edge; COMP, contacts and Metal1 all stop about 65 µm inside the die edge.
 - `SHA256` and `LAYOUT` in `data/manifest.csv` refer to the sealed die files given to the stitcher (`<CODE>/caravel.gds`), which are not published separately; the stitched layout contains them unchanged.
-- Repository links point to the designer's GitHub repository where one in a public mirror contains the slot's three newest non-Efabless commits; otherwise to the slot repository at googlesource.
+- Repository links point to the designer's GitHub repository where one in a public mirror contains the slot's three newest non-Efabless commits; otherwise to the slot repository at googlesource. The exception is 0004, which links to the `mpw18h1` directory of [idea-fasoc/openfasoc-tapeouts](https://github.com/idea-fasoc/openfasoc-tapeouts/tree/main/mpw18h1): the design's description, generators and GDS (it names slot-004 as its submission).
+- Names and descriptions of 0001 and 0004 follow [Silicon Prawn](https://siliconprawn.org/)'s pages for the dies and the OpenFASoC tapeout README; Silicon Prawn has photographs of both (see [README.md](README.md#die-photographs)), and describes the shuttle as "not technically efabless but done by Google with the open source GF180MCU on the standard GF shuttle program".
 - All four slot repositories are Apache-2.0 licensed.
 
-# Efabless Names and Positions
+# Manifest Names and Positions
 
-| Code | Efabless ID | Efabless name | Efabless position |
+As listed in `manifest-gfmpw-18h1.csv` in the shuttle's `foundry` repository.
+
+| Code | Project ID | Manifest name | Manifest position |
 |---|---|---|---|
 | 0001 | 18100001 | MPW18H1_PGSTDCELLS.01 | A1 (slot-001) |
 | 0002 | 18100002 | MPW18H1_OSUSTDCELLS.01 | B1 (slot-002) |

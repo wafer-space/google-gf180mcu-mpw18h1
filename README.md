@@ -1,6 +1,6 @@
-# Google / Efabless MPW-18H1
+# Google MPW-18H1
 
-[Google](https://opensource.google/) & [Efabless](https://efabless.com/) GF180MCU micro-shuttle MPW-18H1
+[Google](https://opensource.google/) GF180MCU test shuttle MPW-18H1, a private run on GlobalFoundries' MPW service
 
 - Shuttle ID: GFMPW18H1
 - Process: GF180MCU
@@ -15,16 +15,26 @@
 </table>
 </div>
 
-This shuttle was not run by wafer.space. See [PROVENANCE.md](PROVENANCE.md) for where the layouts come from and how this repository was generated.
+This shuttle was not run by wafer.space, and it was not an Efabless Open MPW shuttle: Google ran it as a private test shuttle on GlobalFoundries' own MPW service. See [PROVENANCE.md](PROVENANCE.md) for where the layouts come from and how this repository was generated.
 
 # Public Projects
 
 | Code | Project | Slot Size | Project Details | Repository |
 |---|---|---|---|---|
-| 0001 | PG standard cells test | 1x1 | GF180MCU test structures. By Philipp Gühring. | https://github.com/thesourcerer8/gf180teststructure |
+| 0001 | LibreSilicon Danube River test tile | 1x1 | GF180MCU test structures by Philipp Gühring of LibreSilicon; Silicon Prawn identifies the die as LibreSilicon's Danube River test tile (https://gitlab.libresilicon.com/generator-tools/danube-river). | https://github.com/thesourcerer8/gf180teststructure |
 | 0002 | OSU 3.3V standard cell test (vlsiffra adder) | 1x1 | 32-bit adder using Anton Blanchard's vlsiffra architecture with the OSU gf180mcuC 3.3V standard cells. | https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1/slot-002 |
 | 0003 | Fitbit test IC 1 | 1x1 |  | https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1/slot-003 |
-| 0004 | OpenFASoC sensor harness | 1x1 | OpenFASoC sensor harness. | https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1/slot-004 |
+| 0004 | Analog front-end for sensor readout (OpenFASoC) | 1x1 | Analog front-end for reading out flexible laser-induced graphene sensors: a 14-bit SAR ADC, folded-cascode op-amps with programmable bias and bias generation, designed with open-source tools by Brown University. Published as A. Li et al., IEEE Solid-State Circuits Magazine 16(2), 2024 (doi:10.1109/MSSC.2024.3380586). | https://github.com/idea-fasoc/openfasoc-tapeouts/tree/main/mpw18h1 |
+
+# Die Photographs
+
+[Silicon Prawn](https://siliconprawn.org/) has optical photographs of two of these dies, taken by John McMaster
+(CC BY 4.0), with zoomable viewers and further details:
+
+| Code | Silicon Prawn page | Copy on data.wafer.space |
+|---|---|---|
+| 0001 | [gf180mcu-mpw18h1-18100001](https://siliconprawn.org/archive/doku.php?id=mcmaster:efabless:gf180mcu-mpw18h1-18100001) | [mz_mit20x](https://data.wafer.space/big-storage/siliconprawn.org/efabless/efabless_gf180mcu-mpw18h1-18100001_mcmaster_mz_mit20x.jpg) |
+| 0004 | [gf180mcu-mpw18h1-18100004](https://siliconprawn.org/archive/doku.php?id=mcmaster:efabless:gf180mcu-mpw18h1-18100004) | [mit20x](https://data.wafer.space/big-storage/siliconprawn.org/efabless/efabless_gf180mcu-mpw18h1-18100004_mcmaster_mit20x.jpg) |
 
 # View the Reticle Layout
 
