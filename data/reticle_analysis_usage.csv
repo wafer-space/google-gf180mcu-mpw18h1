@@ -1,0 +1,247 @@
+slot_id,cell_name,scope,device,uses,count,area_um2,avg_area_um2,unit
+0003,0003_caravel_0_0,designer,custom_3v3,1,7590,751510.0,99.013,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,custom_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,custom_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,native,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,ldmos,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,moscap,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,mim,1,4,4800.0,1200.0,FuseTop shape; area of the capacitor top plate
+0003,0003_caravel_0_0,designer,hres,0,0,0.0,0,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,poly_unsal,1,2,18.4,9.2,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,poly_sal,0,0,0.0,0,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,diff_res,0,0,0.0,0,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,nwell_res,0,0,0.0,0,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,metal_res,0,0,0.0,0,resistor body; area of the body under its marker
+0003,0003_caravel_0_0,designer,dnwell,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,bjt,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,schottky,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,diode,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,well_diode,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,zener,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,efuse,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,otp,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,inductor,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,cap_marker_other,0,0,0.0,0,merged marker shape; area of the marker
+0003,0003_caravel_0_0,designer,mim_top_via_Metal4-Metal5,1,4,0.0,0.0,MIM capacitor; no area
+0003,0003_caravel_0_0,designer,nmos_3v3,1,7342,728655.0,99.245,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_3v3,1,248,22855.0,92.157,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,designer,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,pads,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0003,0003_caravel_0_0,library,std:fd_sc_mcu7t5v0,1,18509,0.0,0.0,cell placement; no area
+0003,0003_caravel_0_0,designer,highest_metal,1,5,0,0,"metal level (1-5, 6 = MetalTop)"
+0001,0001_caravel_0_2,designer,custom_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,custom_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,custom_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,native,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,ldmos,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,moscap,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,mim,0,0,0.0,0,FuseTop shape; area of the capacitor top plate
+0001,0001_caravel_0_2,designer,hres,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,poly_unsal,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,poly_sal,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,diff_res,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,nwell_res,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,metal_res,0,0,0.0,0,resistor body; area of the body under its marker
+0001,0001_caravel_0_2,designer,dnwell,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,bjt,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,schottky,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,diode,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,well_diode,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,zener,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,efuse,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,otp,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,inductor,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,cap_marker_other,0,0,0.0,0,merged marker shape; area of the marker
+0001,0001_caravel_0_2,designer,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,pads,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0001,0001_caravel_0_2,designer,highest_metal,1,5,0,0,"metal level (1-5, 6 = MetalTop)"
+0004,0004_caravel_2_0,designer,custom_3v3,1,39217,26499.442,0.676,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,custom_5v,1,20,72.0,3.6,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,custom_6v,1,18462,18462.0,1.0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,native,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,ldmos,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,moscap,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,mim,1,123,77176.0,627.447,FuseTop shape; area of the capacitor top plate
+0004,0004_caravel_2_0,designer,hres,1,20,200.0,10.0,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,poly_unsal,1,1,9.2,9.2,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,poly_sal,0,0,0.0,0,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,diff_res,0,0,0.0,0,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,nwell_res,0,0,0.0,0,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,metal_res,0,0,0.0,0,resistor body; area of the body under its marker
+0004,0004_caravel_2_0,designer,dnwell,1,34,24736.453,727.543,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,bjt,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,schottky,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,diode,1,32770,6902.579,0.211,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,well_diode,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,zener,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,efuse,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,otp,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,inductor,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,cap_marker_other,0,0,0.0,0,merged marker shape; area of the marker
+0004,0004_caravel_2_0,designer,mim_top_via_Metal4-Metal5,1,123,0.0,0.0,MIM capacitor; no area
+0004,0004_caravel_2_0,designer,nmos_3v3,1,19710,11700.581,0.594,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmos_5v,1,10,24.0,2.4,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmos_6v,1,9231,9231.0,1.0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_3v3,1,19507,14798.861,0.759,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_5v,1,10,48.0,4.8,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_6v,1,9231,9231.0,1.0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,designer,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_6v,1,6981,95568.27,13.69,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_6v,1,5022,21104.37,4.202,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmos_sab_6v,1,264,11536.8,43.7,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmos_sab_6v,1,396,11088.0,28.0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,nmoscap_6v,1,29410,595429.0,20.246,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,pads,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0004,0004_caravel_2_0,library,io:gf180mcu_fd_io,1,578,0.0,0.0,cell placement; no area
+0004,0004_caravel_2_0,library,std:fd_sc_mcu7t5v0,1,1681,0.0,0.0,cell placement; no area
+0004,0004_caravel_2_0,designer,highest_metal,1,5,0,0,"metal level (1-5, 6 = MetalTop)"
+0002,0002_caravel_2_2,designer,custom_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,custom_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,custom_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,native,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,ldmos,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,moscap,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,mim,0,0,0.0,0,FuseTop shape; area of the capacitor top plate
+0002,0002_caravel_2_2,designer,hres,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,poly_unsal,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,poly_sal,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,diff_res,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,nwell_res,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,metal_res,0,0,0.0,0,resistor body; area of the body under its marker
+0002,0002_caravel_2_2,designer,dnwell,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,bjt,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,schottky,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,diode,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,well_diode,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,zener,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,efuse,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,otp,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,inductor,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,cap_marker_other,0,0,0.0,0,merged marker shape; area of the marker
+0002,0002_caravel_2_2,designer,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,designer,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_sab_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_sab_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmos_sab_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,nmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmoscap_3v3,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmoscap_5v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,pads,pmoscap_6v,0,0,0.0,0,gate finger; area of Poly2 AND COMP
+0002,0002_caravel_2_2,library,std:osu_sc_gp9t3v3,1,42964,0.0,0.0,cell placement; no area
+0002,0002_caravel_2_2,designer,highest_metal,1,5,0,0,"metal level (1-5, 6 = MetalTop)"

@@ -1,0 +1,32 @@
+{
+ "top_cell": "reticle",
+ "stdcell_prefixes": [
+  "gf180mcu_fd_sc_",
+  "gf180mcu_as_sc_",
+  "gf180mcu_as_ex_",
+  "gf180mcu_osu_sc_"
+ ],
+ "library_names": "qualified",
+ "exclude": {
+  "pad_ring": [
+   "gf180mcu_*_io__*"
+  ],
+  "caravel_harness": [
+   "caravel_core",
+   "caravel_power_routing",
+   "chip_io",
+   "caravel_logo",
+   "caravel_motto",
+   "copyright_block",
+   "open_source",
+   "user_id_textblock"
+  ],
+  "seal_ring": [
+   "sealring"
+  ]
+ },
+ "keep": [
+  "user_project_wrapper"
+ ],
+ "core_cell": "user_project_wrapper"
+}

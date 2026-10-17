@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MPW-18H1 · Google GF180MCU Test Shuttle (GlobalFoundries private MPW) — wafer.space</title>
+  <meta name="description" content="Designs, density statistics and layout renders from Google GF180MCU test shuttle MPW-18H1.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MPW-18H1 · Google GF180MCU Test Shuttle (GlobalFoundries private MPW) — wafer.space">
+  <meta property="og:description" content="Designs, density statistics and layout renders from Google GF180MCU test shuttle MPW-18H1.">
+<meta property="og:image" content="https://wafer.space/google-gf180mcu-mpw18h1/renders/reticle.webp">
+  <script>
+    // The main website's dark-mode-init: the same 'theme' preference, applied
+    // before first paint. Its scripts.js then runs the toggle.
+    (function () {
+      var theme = localStorage.getItem('theme');
+      if (!theme) {
+        theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark-mode-init');
+      }
+    })();
+  </script>
+  <style>
+    [data-theme="dark"] body, .dark-mode-init body { background-color: #1a1a1a !important; color: #e0e0e0; }
+    [data-theme="dark"], .dark-mode-init { background-color: #1a1a1a !important; }
+  </style>
+  <link rel="shortcut icon" href="https://wafer.space/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/plugins.css" />
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/type/type.css" />
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/sky.css">
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/dark.css">
+  <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="run.css?v=40d57e2766">
+</head>
+<body>
+  <div class="content-wrapper">
+    <nav class="navbar wide absolute dark-wrapper inverse-text navbar-hover-opacity navbar-expand-lg nav-uppercase">
+      <div class="container-fluid flex-row justify-content-center">
+        <div class="navbar-brand" data-default-logo="white">
+          <a href="https://wafer.space/"><img src="https://wafer.space/assets/images/logo-light.webp"
+            srcset="https://wafer.space/assets/images/logo-light.webp 1x, https://wafer.space/assets/images/logo-light@2x.webp 2x"
+            class="logo-light" alt="wafer.space - Budget silicon manufacturing" /></a>
+          <a href="https://wafer.space/"><img src="https://wafer.space/assets/images/logo.webp"
+            srcset="https://wafer.space/assets/images/logo.webp 1x, https://wafer.space/assets/images/logo@2x.webp 2x"
+            class="logo-dark d-none" alt="wafer.space - Budget silicon manufacturing" /></a>
+        </div>
+        <div class="navbar-other ms-auto order-lg-3">
+          <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+            <li class="nav-item">
+              <div class="navbar-hamburger d-lg-none d-xl-none ms-auto">
+                <button class="hamburger animate plain" data-bs-toggle="offcanvas-nav"><span></span></button>
+              </div>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <button id="darkModeToggle" class="btn btn-sm btn-circle btn-outline-primary theme-toggle me-2" aria-label="Switch theme mode" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click to toggle, right-click for auto"><i class="icofont-moon"></i></button>
+            </li>
+            <li class="nav-item d-none d-lg-block"><a href="https://wafer.space/free.html" class="btn btn-default">Free Silicon?</a></li>
+          </ul>
+        </div>
+        <div class="navbar-collapse offcanvas-nav">
+          <div class="offcanvas-header d-lg-none d-xl-none">
+            <a href="https://wafer.space/"><img src="https://wafer.space/assets/images/logo-light.webp" alt="wafer.space" /></a>
+            <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
+          </div>
+          <ul class="navbar-nav mx-auto" data-sm-skip-collapsible-behavior="true">
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/price.html">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/technology.html">Technology</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/design-help.html">Design Help</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/news">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wafer.space/faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="wrapper image-wrapper bg-image page-title-wrapper run-hero inverse-text"
+     data-image-src="https://wafer.space/assets/images/header/mpw-one-partial-dice-top-1.jpg">
+  <div class="container inner text-center">
+    <h1 class="page-title">MPW-18H1<span class="page-title-sub">Google</span><span class="page-title-sub">GF180MCU Test Shuttle (GlobalFoundries private MPW)</span></h1>
+    <p class="lead">Shuttle GFMPW18H1 · 4 public designs on one reticle</p>
+  </div>
+</div>
+
+<!-- Headline numbers -->
+<div class="wrapper light-wrapper run-first">
+  <div class="container inner">
+    <h2 class="section-title mb-40 text-center">What was built</h2>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">4</h3>
+    <p class="mb-0 font-weight-600 color-dark small">Public designs</p>
+<p class="mb-0 small text-muted">of 4 reticle slots</p>  </div>
+</div>
+
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">4</h3>
+    <p class="mb-0 font-weight-600 color-dark small">Open source</p>
+<p class="mb-0 small text-muted">with a public repository</p>  </div>
+</div>
+
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">272k</h3>
+    <p class="mb-0 font-weight-600 color-dark small">Transistors</p>
+<p class="mb-0 small text-muted">across the unique designs</p>  </div>
+</div>
+
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">8k</h3>
+    <p class="mb-0 font-weight-600 color-dark small">Logic cells</p>
+<p class="mb-0 small text-muted">gates and flip-flops</p>  </div>
+</div>
+
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">0 KiB</h3>
+    <p class="mb-0 font-weight-600 color-dark small">SRAM</p>
+<p class="mb-0 small text-muted">in foundry and custom macros</p>  </div>
+</div>
+
+      <div class="col-6 col-md-4 col-lg-2 mb-20">
+  <div class="box bg-white shadow p-20 text-center h-100">
+    <h3 class="mb-5 color-dark run-stat">325</h3>
+    <p class="mb-0 font-weight-600 color-dark small">Bond pads</p>
+<p class="mb-0 small text-muted">and 504 probe pads</p>  </div>
+</div>
+
+    </div>
+    <p class="text-center text-muted small mb-0">Private designs on the reticle are not in the public layout and are
+      not counted. Designs placed more than once are counted once.</p>
+  </div>
+</div>
+
+<!-- Reticle and status -->
+<div id="reticle" class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row gutter-50">
+      <div class="col-lg-8 mb-30">
+        <h2 class="section-title mb-20">The reticle</h2>
+        <div class="run-reticle-frame">
+          <div class="run-reticle framed">
+            <img src="renders/reticle.webp" alt="Render of the GFMPW18H1 reticle"
+                 width="3000" height="2338">
+            <a class="run-reticle-slot" href="projects/0003.html" title="0003 — Fitbit test IC 1"
+               style="left: 0.200%; top: 22.422%; width: 13.107%; height: 21.909%;"><span>0003</span></a>
+            <a class="run-reticle-slot" href="projects/0001.html" title="0001 — LibreSilicon Danube River test tile"
+               style="left: 0.200%; top: 0.257%; width: 13.107%; height: 21.909%;"><span>0001</span></a>
+            <a class="run-reticle-slot" href="projects/0004.html" title="0004 — Analog front-end for sensor readout (OpenFASoC)"
+               style="left: 13.507%; top: 22.422%; width: 13.107%; height: 21.909%;"><span>0004</span></a>
+            <a class="run-reticle-slot" href="projects/0002.html" title="0002 — OSU 3.3V standard cell test (vlsiffra adder)"
+               style="left: 13.507%; top: 0.257%; width: 13.107%; height: 21.909%;"><span>0002</span></a>
+          </div>
+        </div>
+        <p class="small text-muted mt-10 mb-0">Every design rendered from the layout at the same scale and placed where
+          it sits on the 8 × 10.4 mm
+          reticle. It is drawn on a 30 × 23.4 mm
+          frame, so that the dies appear at the same scale as on the other runs' pages.          Select a die for its details.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="section-title mb-20">Slots</h2>
+        <table class="table table-sm run-table bg-white mb-30">
+          <tbody>
+<tr><td>1 × 1</td><td class="text-end">4</td></tr>          </tbody>
+        </table>
+        <h2 class="section-title mb-20">Shuttle status</h2>
+        <ul class="run-timeline">
+          <li class="done run-timeline-milestone">
+            <span class="run-timeline-date">1 February 2023</span>
+            <strong>Tapeout Flow Set Up</strong>
+            <span class="small text-muted">Google adds the GF180MCU tapeout flow to the four Caravel project repositories</span>
+          </li>
+          <li class="done run-timeline-milestone">
+            <span class="run-timeline-date">26 February – 3 March 2023</span>
+            <strong>Designs Submitted</strong>
+            <span class="small text-muted">The designers&#39; final layouts for GF submission</span>
+          </li>
+          <li class="done run-timeline-critical">
+            <span class="run-timeline-date">about 3 March 2023</span>
+            <strong>Tapeout</strong>
+            <span class="small text-muted">Final Caravel dies written (2–3 March) for GlobalFoundries&#39; private MPW run 18H1</span>
+          </li>
+          <li class="done run-timeline-milestone">
+            <span class="run-timeline-date">20 December 2023</span>
+            <strong>Final Dies Published</strong>
+            <span class="small text-muted">Google publishes the final dies and the shuttle manifest at foss-eda-tools.googlesource.com</span>
+          </li>
+          <li class="done run-timeline-delivery">
+            <span class="run-timeline-date">2024</span>
+            <strong>Silicon Results Published</strong>
+            <span class="small text-muted">Measured results of the OpenFASoC analog front-end (0004) in IEEE Solid-State Circuits Magazine</span>
+          </li>
+          <li class="done run-timeline-milestone">
+            <span class="run-timeline-date">June – July 2025</span>
+            <strong>Die Photographs</strong>
+            <span class="small text-muted">John McMaster photographs dies 0001 and 0004 for Silicon Prawn</span>
+          </li>
+        </ul>
+        <p class="small text-muted mb-0">From <a href="https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-18h1">the shuttle repositories, the dies&#39; GDS headers, the OpenFASoC paper and the Silicon Prawn photographs (no schedule was published for this private shuttle)</a>.</p>
+        <div class="space20"></div>
+        <a class="btn btn-default btn-sm" href="https://github.com/wafer-space/google-gf180mcu-mpw18h1">Layout on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- How the silicon was used -->
+<div id="usage" class="wrapper light-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">How people used their silicon</h2>
+    <p class="lead text-center mb-40">Where the area of 4 dies
+      (80 mm² of silicon) actually went</p>
+
+    <div class="run-bar run-bar-large mb-10">
+      <div style="width: 0.30%; background: #5ca7db"
+           title="Logic cells: 0.2 mm² (&lt;1%)">
+      </div>
+      <div style="width: 0.94%; background: #b9c7d6"
+           title="Filler and tap cells: 0.8 mm² (1%)">
+      </div>
+      <div style="width: 43.48%; background: #e6ebf0"
+           title="Other: 35.0 mm² (43%)">
+<span>43%</span>      </div>
+      <div style="width: 55.28%; background: #f0b84c"
+           title="Outside the user area: 44.5 mm² (55%)">
+<span>55%</span>      </div>
+    </div>
+    <ul class="run-legend mb-40">
+      <li><i style="background: #5ca7db"></i><strong>Logic cells</strong> &lt;1%
+        <span class="text-muted">— gates and flip-flops doing the design&#39;s actual work</span></li>
+      <li><i style="background: #9b6bd6"></i><strong>SRAM</strong> 0%
+        <span class="text-muted">— memory macros</span></li>
+      <li><i style="background: #b9c7d6"></i><strong>Filler and tap cells</strong> 1%
+        <span class="text-muted">— inserted by the tools to keep rows continuous and wells tied</span></li>
+      <li><i style="background: #e6ebf0"></i><strong>Other</strong> 43%
+        <span class="text-muted">— routing channels, analog and custom layout, power grid and empty space</span></li>
+      <li><i style="background: #f0b84c"></i><strong>Outside the user area</strong> 55%
+        <span class="text-muted">— the pad frame and shared harness around the user&#39;s design, not measured</span></li>
+    </ul>
+
+    <div class="row gutter-50">
+      <div class="col-lg-6 mb-30">
+        <h3 class="mb-20">What people built</h3>
+        <a class="run-category" href="#cat-1">
+          <span class="run-category-name">Other digital</span>
+          <span class="run-category-bar"><i style="width: 100.0%; background: #5ca7db"></i></span>
+          <span class="run-category-count">2</span>
+        </a>
+        <a class="run-category" href="#cat-2">
+          <span class="run-category-name">Analog and mixed-signal</span>
+          <span class="run-category-bar"><i style="width: 50.0%; background: #9b6bd6"></i></span>
+          <span class="run-category-count">1</span>
+        </a>
+        <a class="run-category" href="#cat-3">
+          <span class="run-category-name">Test structures</span>
+          <span class="run-category-bar"><i style="width: 50.0%; background: #45c4a0"></i></span>
+          <span class="run-category-count">1</span>
+        </a>
+      </div>
+      <div class="col-lg-6 mb-30">
+        <h3 class="mb-20">Standard cell libraries</h3>
+        <table class="table table-sm run-table mb-0">
+          <thead><tr><th>Standard cell library</th><th class="text-end">Logic cells</th><th class="text-end">Share</th></tr></thead>
+          <tbody>
+            <tr><td><a href="https://github.com/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc/tree/main/gf180mcu_osu_sc_gp9t3v3">OSU 9t-3.3V</a> <span class="text-muted small">gf180mcu_osu_sc_gp9t3v3</span></td>
+              <td class="text-end">7k</td>
+              <td class="text-end">88%</td></tr>
+            <tr><td><a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a> <span class="text-muted small">gf180mcu_fd_sc_mcu7t5v0</span></td>
+              <td class="text-end">1k</td>
+              <td class="text-end">12%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 class="mb-10">Area budget of every design</h3>
+    <p class="text-muted small mb-20">Each bar is one die, split the same way as above. Sorted by how much of the die is logic.</p>
+    <div class="run-rows">
+      <a class="run-row" href="projects/0002.html">
+        <span class="run-row-label"><strong>0002</strong> <span class="text-muted">OSU 3.3V standard cell test (vlsiffra adder)</span></span>
+        <span class="run-bar">
+          <i style="width: 1.07%; background: #5ca7db"
+             title="Logic cells: 0.22 mm² (1%)"></i>
+          <i style="width: 1.36%; background: #b9c7d6"
+             title="Filler and tap cells: 0.27 mm² (1%)"></i>
+          <i style="width: 42.30%; background: #e6ebf0"
+             title="Other: 8.51 mm² (42%)"></i>
+          <i style="width: 55.26%; background: #f0b84c"
+             title="Outside the user area: 11.12 mm² (55%)"></i>
+        </span>
+      </a>
+      <a class="run-row" href="projects/0003.html">
+        <span class="run-row-label"><strong>0003</strong> <span class="text-muted">Fitbit test IC 1</span></span>
+        <span class="run-bar">
+          <i style="width: 0.11%; background: #5ca7db"
+             title="Logic cells: 0.02 mm² (&lt;1%)"></i>
+          <i style="width: 2.32%; background: #b9c7d6"
+             title="Filler and tap cells: 0.47 mm² (2%)"></i>
+          <i style="width: 42.28%; background: #e6ebf0"
+             title="Other: 8.51 mm² (42%)"></i>
+          <i style="width: 55.29%; background: #f0b84c"
+             title="Outside the user area: 11.12 mm² (55%)"></i>
+        </span>
+      </a>
+      <a class="run-row" href="projects/0004.html">
+        <span class="run-row-label"><strong>0004</strong> <span class="text-muted">Analog front-end for sensor readout (OpenFASoC)</span></span>
+        <span class="run-bar">
+          <i style="width: 44.61%; background: #e6ebf0"
+             title="Other: 8.98 mm² (45%)"></i>
+          <i style="width: 55.29%; background: #f0b84c"
+             title="Outside the user area: 11.12 mm² (55%)"></i>
+        </span>
+      </a>
+      <a class="run-row" href="projects/0001.html">
+        <span class="run-row-label"><strong>0001</strong> <span class="text-muted">LibreSilicon Danube River test tile</span></span>
+        <span class="run-bar">
+          <i style="width: 44.71%; background: #e6ebf0"
+             title="Other: 9.00 mm² (45%)"></i>
+          <i style="width: 55.29%; background: #f0b84c"
+             title="Outside the user area: 11.12 mm² (55%)"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Process features -->
+<div id="features" class="wrapper gray-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">Which parts of the process were used</h2>
+    <p class="lead text-center mb-40">Transistor voltages and optional devices across the 4 designs</p>
+    <div class="row gutter-50">
+      <div class="col-lg-5 mb-30">
+        <h3 class="mb-20">Transistor voltages</h3>
+        <div class="run-category">
+          <span class="run-category-name">3.3 V</span>
+          <span class="run-category-bar"><i style="width: 75.0%; background: #5ca7db"></i></span>
+          <span class="run-category-count">3</span>
+        </div>
+        <div class="run-category">
+          <span class="run-category-name">5 V</span>
+          <span class="run-category-bar"><i style="width: 50.0%; background: #5ca7db"></i></span>
+          <span class="run-category-count">2</span>
+        </div>
+        <div class="run-category">
+          <span class="run-category-name">6 V</span>
+          <span class="run-category-bar"><i style="width: 25.0%; background: #5ca7db"></i></span>
+          <span class="run-category-count">1</span>
+        </div>
+        <p class="small text-muted mt-10">A design counts for a voltage when its standard cells, SRAM or its own
+          transistors use it. 5 V and 6 V transistors share the thick gate oxide; the V5_XTOR marker tells them apart.</p>
+      </div>
+      <div class="col-lg-7 mb-30">
+        <h3 class="mb-20">Optional devices drawn by designers</h3>
+        <table class="table table-sm run-table bg-white">
+          <thead><tr><th>Device</th><th class="text-end">Designs</th><th>Which</th></tr></thead>
+          <tbody>
+            <tr><td>MIM capacitors</td><td class="text-end">2</td>
+              <td><a class="run-mono" href="projects/0003.html">0003</a> <a class="run-mono" href="projects/0004.html">0004</a></td></tr>
+            <tr><td>Unsalicided poly resistors</td><td class="text-end">2</td>
+              <td><a class="run-mono" href="projects/0003.html">0003</a> <a class="run-mono" href="projects/0004.html">0004</a></td></tr>
+            <tr><td>High-resistance poly resistors</td><td class="text-end">1</td>
+              <td><a class="run-mono" href="projects/0004.html">0004</a></td></tr>
+            <tr><td>Diodes (DIODE_MK)</td><td class="text-end">1</td>
+              <td><a class="run-mono" href="projects/0004.html">0004</a></td></tr>
+            <tr><td>Deep N-well</td><td class="text-end">1</td>
+              <td><a class="run-mono" href="projects/0004.html">0004</a></td></tr>
+          </tbody>
+        </table>
+<p class="small text-muted mb-0">Not drawn by any design: Native transistors, 10 V LDMOS, MOS capacitors, Salicided poly resistors, Diffusion resistors, N-well resistors, Metal resistors, Well diodes, Bipolar transistors, Schottky diodes, Zener diodes, eFuses, One-time programmable memory, Inductors.</p>        <p class="small text-muted">Only devices outside standard cells, SRAM macros and I/O pads count, since every
+          die has those. A single test structure counts the same as a large block.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Density guidance -->
+<div id="density" class="wrapper dark-wrapper inverse-text">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h2 class="title-color color-white">What fits on 1&nbsp;mm² of GF180MCU silicon?</h2>
+        <h3 class="display-3">Theoretical maximum against what designers achieved</h3>
+        <p class="lead">The maximum packs one cell type edge to edge with no room for wiring. Real designs need
+          the wiring.</p>
+        <div class="space20"></div>
+      </div>
+    </div>
+    <div class="row text-center gutter-30 justify-content-center">
+      <div class="col-md-6 col-lg-3 mb-30">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">~113,885</h3>
+          <p class="mb-0 font-weight-600 color-dark">Inverters per mm²</p>
+          <p class="mb-10 small text-muted">theoretical maximum</p>
+          <p class="mb-0 small text-muted"><a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a>: 114k <a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/cells/inv/gf180mcu_fd_sc_mcu7t5v0__inv_1.html"><span class="run-mono">inv_1</span></a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-30">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">~91,108</h3>
+          <p class="mb-0 font-weight-600 color-dark">NAND gates per mm²</p>
+          <p class="mb-10 small text-muted">theoretical maximum</p>
+          <p class="mb-0 small text-muted"><a href="https://github.com/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc/tree/main/gf180mcu_osu_sc_gp9t3v3">OSU 9t-3.3V</a>: 51k <a href="https://cdn.jsdelivr.net/gh/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc@8a2f58f283a2eaa725314c9e1b8b7d1d343f23a3/docs/gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.pdf#page=127"><span class="run-mono">nand2_1</span></a></p>
+          <p class="mb-0 small text-muted"><a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a>: 91k <a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/cells/nand2/gf180mcu_fd_sc_mcu7t5v0__nand2_1.html"><span class="run-mono">nand2_1</span></a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-30">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">~75,923</h3>
+          <p class="mb-0 font-weight-600 color-dark">Buffers per mm²</p>
+          <p class="mb-10 small text-muted">theoretical maximum</p>
+          <p class="mb-0 small text-muted"><a href="https://github.com/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc/tree/main/gf180mcu_osu_sc_gp9t3v3">OSU 9t-3.3V</a>: 49k <a href="https://cdn.jsdelivr.net/gh/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc@8a2f58f283a2eaa725314c9e1b8b7d1d343f23a3/docs/gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.pdf#page=31"><span class="run-mono">buf_1</span></a></p>
+          <p class="mb-0 small text-muted"><a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a>: 76k <a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/cells/buf/gf180mcu_fd_sc_mcu7t5v0__buf_1.html"><span class="run-mono">buf_1</span></a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-30">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">~15,708</h3>
+          <p class="mb-0 font-weight-600 color-dark">Flip-flops per mm²</p>
+          <p class="mb-10 small text-muted">theoretical maximum</p>
+          <p class="mb-0 small text-muted"><a href="https://github.com/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc/tree/main/gf180mcu_osu_sc_gp9t3v3">OSU 9t-3.3V</a>: 11k <a href="https://cdn.jsdelivr.net/gh/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc@8a2f58f283a2eaa725314c9e1b8b7d1d343f23a3/docs/gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.pdf#page=91"><span class="run-mono">dff_1</span></a></p>
+          <p class="mb-0 small text-muted"><a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a>: 16k <a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/cells/dffq/gf180mcu_fd_sc_mcu7t5v0__dffq_1.html"><span class="run-mono">dffq_1</span></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="space30"></div>
+    <div class="row justify-content-center text-center gutter-30">
+      <div class="col-md-4 mb-20">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">1k</h3>
+          <p class="mb-0 font-weight-600 color-dark">Best whole-die average</p>
+          <p class="mb-0 small text-muted">logic cells/mm² of core — 2% of the buffer maximum</p>
+          <p class="mb-0 small"><a href="projects/0002.html">OSU 3.3V standard cell test (vlsiffra adder)</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-20">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">7k</h3>
+          <p class="mb-0 font-weight-600 color-dark">Best single mm²</p>
+          <p class="mb-0 small text-muted">logic cells — 15% of the buffer maximum</p>
+          <p class="mb-0 small"><a href="projects/0002.html">OSU 3.3V standard cell test (vlsiffra adder)</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-20">
+        <div class="box bg-white shadow p-30 h-100">
+          <h3 class="mb-5 color-dark">1k</h3>
+          <p class="mb-0 font-weight-600 color-dark">Typical design</p>
+          <p class="mb-0 small text-muted">median logic cells/mm² of core across 1 digital designs</p>
+          <p class="mb-0 small text-muted">2% of the core covered by logic cells</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="guidance" class="wrapper gray-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">Sizing your own design</h2>
+    <p class="lead text-center mb-40">What each slot size held on this run, and what it would hold at this run's densities</p>
+    <div class="table-responsive">
+      <table class="table table-sm run-table run-guidance bg-white shadow">
+        <thead><tr class="run-groups">
+          <th colspan="4"></th>
+          <th colspan="2" class="run-group">Logic cells in its designs</th>
+          <th colspan="3" class="run-group">Logic cells at this run's density</th>
+          <th colspan="2" class="run-group">Theoretical maximum</th>
+        </tr><tr>
+          <th class="">Slot<span class="run-note"> </span></th><th class="">Die<span class="run-note"> </span></th>
+          <th class="text-end">Core area<span class="run-note"> </span></th><th class="text-end">Designs<span class="run-note"> </span></th>
+          <th class="text-end run-group-start">Most<span class="run-note"> </span></th><th class="text-end">Median<span class="run-note"> </span></th>
+          <th class="text-end run-group-start">Typical<span class="run-note">1k / mm²</span></th><th class="text-end">Best<span class="run-note">1k / mm²</span></th>
+          <th class="text-end">Densest<span class="run-note">7k / mm²</span></th>
+          <th class="text-end run-group-start">NAND gates<span class="run-note"><a href="https://cdn.jsdelivr.net/gh/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc@8a2f58f283a2eaa725314c9e1b8b7d1d343f23a3/docs/gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.pdf#page=127"><span class="run-mono">nand2_1</span></a></span></th><th class="text-end">Flip-flops<span class="run-note"><a href="https://cdn.jsdelivr.net/gh/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc@8a2f58f283a2eaa725314c9e1b8b7d1d343f23a3/docs/gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs.pdf#page=91"><span class="run-mono">dff_1</span></a></span></th>
+        </tr></thead>
+        <tbody>
+          <tr><td class="text-nowrap"><strong>1 × 1</strong></td><td class="text-nowrap">3.93 × 5.12 mm</td>
+            <td class="text-end">9.0 mm²</td><td class="text-end">4</td>
+            <td class="text-end run-group-start">7k</td><td class="text-end">7k</td>
+            <td class="text-end run-group-start">7k</td>
+            <td class="text-end">7k</td>
+            <td class="text-end">66k</td>
+            <td class="text-end run-group-start">457k</td>
+            <td class="text-end">98k</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small text-muted mb-40">Core area is the area of each die&#39;s user_project_wrapper cell. "Typical"
+      and "best" multiply the core area by this run's median and best whole-die logic densities, and "densest" by the
+      densest 1 mm² any design on this run reached; SRAM and analog
+      blocks take their area out of that. The theoretical maxima fill the core with nothing but that one cell of
+      <a href="https://github.com/stineje/globalfoundries-pdk-libs-gf180mcu_osu_sc/tree/main/gf180mcu_osu_sc_gp9t3v3">OSU 9t-3.3V</a>, the
+      library most used on this run, edge to edge with no routing.</p>
+
+    <h3 class="mb-10">Logic density of every digital design</h3>
+    <p class="text-muted small mb-20">Solid bar: average over the core. Outlined bar: the densest single mm² outside SRAM (a dash where memory covers most of the die). The scale
+      ends at the buffer theoretical maximum (76k cells/mm²).</p>
+    <div class="run-rows">
+      <a class="run-row" href="projects/0002.html">
+        <span class="run-row-label"><strong>0002</strong> <span class="text-muted">OSU 9t-3.3V</span></span>
+        <span class="run-density">
+          <i class="peak" style="width: 9.67%"></i>
+          <i class="core" style="width: 1.07%"></i>
+        </span>
+        <span class="run-row-value">1k <span class="text-muted">/ 7k</span></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Projects -->
+<div id="projects" class="wrapper light-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">The projects</h2>
+    <p class="lead text-center mb-40">Grouped by what they are. Each links to renders, measurements and any photographs
+      or bonding results.</p>
+    <h3 id="cat-1" class="run-category-title">
+      <i style="background: #5ca7db"></i>Other digital
+      <span class="text-muted">2</span>
+    </h3>
+    <div class="row">
+<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/0002.html">
+    <figure class="run-card-image">
+      <img src="renders/0002_thumb.webp" alt="Layout render of OSU 3.3V standard cell test (vlsiffra adder)" loading="lazy">
+      <span class="run-code">0002</span>
+    </figure>
+    <div class="run-card-body">
+      <span class="badge rounded-pill run-badge" style="background: #5ca7db">Other digital</span>
+      <h5 class="post-title mb-5">OSU 3.3V standard cell test (vlsiffra adder)</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 7k logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+<p class="mb-0 small text-muted run-card-features">3.3 V
+</p>    </div>
+  </a>
+</div>
+<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/0003.html">
+    <figure class="run-card-image">
+      <img src="renders/0003_thumb.webp" alt="Layout render of Fitbit test IC 1" loading="lazy">
+      <span class="run-code">0003</span>
+    </figure>
+    <div class="run-card-body">
+      <span class="badge rounded-pill run-badge" style="background: #5ca7db">Other digital</span>
+      <h5 class="post-title mb-5">Fitbit test IC 1</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 800 logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+<p class="mb-0 small text-muted run-card-features">3.3 V · 5 V
+<span class="run-chip">MIM capacitors</span><span class="run-chip">Unsalicided poly resistors</span></p>    </div>
+  </a>
+</div>
+    </div>
+    <h3 id="cat-2" class="run-category-title">
+      <i style="background: #9b6bd6"></i>Analog and mixed-signal
+      <span class="text-muted">1</span>
+    </h3>
+    <div class="row">
+<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/0004.html">
+    <figure class="run-card-image">
+      <img src="renders/0004_thumb.webp" alt="Layout render of Analog front-end for sensor readout (OpenFASoC)" loading="lazy">
+      <span class="run-code">0004</span>
+    </figure>
+    <div class="run-card-body">
+      <span class="badge rounded-pill run-badge" style="background: #9b6bd6">Analog and mixed-signal</span>
+      <h5 class="post-title mb-5">Analog front-end for sensor readout (OpenFASoC)</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 248 logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
+<p class="mb-0 small text-muted run-card-features">3.3 V · 5 V · 6 V
+<span class="run-chip">MIM capacitors</span><span class="run-chip">High-resistance poly resistors</span><span class="run-chip">Unsalicided poly resistors</span><span class="run-chip">Diodes (DIODE_MK)</span><span class="run-chip">Deep N-well</span></p>    </div>
+  </a>
+</div>
+    </div>
+    <h3 id="cat-3" class="run-category-title">
+      <i style="background: #45c4a0"></i>Test structures
+      <span class="text-muted">1</span>
+    </h3>
+    <div class="row">
+<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/0001.html">
+    <figure class="run-card-image">
+      <img src="renders/0001_thumb.webp" alt="Layout render of LibreSilicon Danube River test tile" loading="lazy">
+      <span class="run-code">0001</span>
+    </figure>
+    <div class="run-card-body">
+      <span class="badge rounded-pill run-badge" style="background: #45c4a0">Test structures</span>
+      <h5 class="post-title mb-5">LibreSilicon Danube River test tile</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+      </p>
+      <p class="mb-0 small run-card-icons">
+<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
+    </div>
+  </a>
+</div>
+    </div>
+  </div>
+</div>
+
+<div id="photos" class="wrapper gray-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">The real silicon</h2>
+    <p class="lead text-center mb-40">Optical micrographs of the fabricated dies © 2025 <a href="https://siliconprawn.org/">John McMaster</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    <div class="row">
+      <div class="col-6 col-md-4 col-lg-3 mb-30">
+        <a class="run-photo shadow" href="projects/0001.html#photo">
+          <img src="photos/0001.webp" alt="Die photograph of 0001 by John McMaster" loading="lazy">
+          <span>0001</span>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-30">
+        <a class="run-photo shadow" href="projects/0004.html#photo">
+          <img src="photos/0004.webp" alt="Die photograph of 0004 by John McMaster" loading="lazy">
+          <span>0004</span>
+        </a>
+      </div>
+    </div>
+    <p class="small text-muted text-center mb-0">Microscope images © 2025 <a href="https://siliconprawn.org/">John McMaster</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+Each project page links to a zoomable viewer of its die. Full resolution images:
+      <a href="https://data.wafer.space/big-storage/siliconprawn.org/efabless/">https://data.wafer.space/big-storage/siliconprawn.org/efabless/</a></p>
+  </div>
+</div>
+
+
+<div id="data" class="wrapper gray-wrapper">
+  <div class="container inner">
+    <h2 class="section-title mb-10 text-center">Data and method</h2>
+    <p class="lead text-center mb-30">Everything on this page is measured from the public reticle layout</p>
+    <div class="row">
+      <div class="col-lg-6 mb-30">
+        <ul class="run-method">
+          <li><strong>Logic cells</strong> are standard cell instances, excluding fillers, taps, antenna diodes and tie cells.</li>
+          <li><strong>Transistors</strong> are places where gate polysilicon crosses diffusion, not counting dummy fill.</li>
+          <li><strong>Core area:</strong> Core area is the area of each die&#39;s user_project_wrapper cell.</li>
+<li><strong>Excluded from the measurements:</strong>
+pad ring
+            (<span class="run-mono">gf180mcu_*_io__*</span>); caravel harness
+            (<span class="run-mono">caravel_core, caravel_power_routing, chip_io, caravel_logo, caravel_motto, copyright_block, open_source, user_id_textblock</span>); seal ring
+            (<span class="run-mono">sealring</span>).
+            Die sizes are measured on the whole die, and bond pads on the whole die apart from its seal ring.</li>          <li><strong>Bond pads</strong> are the pad openings in the pad ring, or in a second ring of pads inside it
+            for chip-on-board bonding; <strong>probe pads</strong> are the others, next to the blocks they test.
+            Letters and logos on the pad layer are not pads.</li>
+          <li><strong>Theoretical maximum</strong> tiles one cell at its placement boundary with no routing.</li>
+<li><strong>Densest mm²</strong> is the best 1 mm square anywhere in each die, sliding in
+            0.1 mm steps and avoiding SRAM.</li>        </ul>
+      </div>
+      <div class="col-lg-6 mb-30">
+        <p>The full written analysis is the
+          <a href="https://github.com/wafer-space/google-gf180mcu-mpw18h1/blob/density-report/reticle_density_report.md">density report</a>.
+          The measurements behind it:</p>
+        <ul class="run-files">
+<li><a href="data/reticle_analysis.csv">reticle_analysis.csv</a></li><li><a href="data/reticle_analysis_cells.csv">reticle_analysis_cells.csv</a></li><li><a href="data/reticle_analysis_content.csv">reticle_analysis_content.csv</a></li><li><a href="data/reticle_analysis_features.csv">reticle_analysis_features.csv</a></li><li><a href="data/reticle_analysis_grid.csv">reticle_analysis_grid.csv</a></li><li><a href="data/reticle_analysis_library.csv">reticle_analysis_library.csv</a></li><li><a href="data/reticle_analysis_macros.csv">reticle_analysis_macros.csv</a></li><li><a href="data/reticle_analysis_map.csv">reticle_analysis_map.csv</a></li><li><a href="data/reticle_analysis_meta.json">reticle_analysis_meta.json</a></li><li><a href="data/reticle_analysis_metal.csv">reticle_analysis_metal.csv</a></li><li><a href="data/reticle_analysis_provenance.csv">reticle_analysis_provenance.csv</a></li><li><a href="data/reticle_analysis_slot_areas.csv">reticle_analysis_slot_areas.csv</a></li><li><a href="data/reticle_analysis_slot_macros.csv">reticle_analysis_slot_macros.csv</a></li><li><a href="data/reticle_analysis_sram_rects.csv">reticle_analysis_sram_rects.csv</a></li><li><a href="data/reticle_analysis_usage.csv">reticle_analysis_usage.csv</a></li><li><a href="data/reticle_analysis_windows.csv">reticle_analysis_windows.csv</a></li><li><a href="data/reticle_density_report.md">reticle_density_report.md</a></li>        </ul>
+        <p class="small text-muted mb-0">Generated by
+          <a href="https://github.com/wafer-space/ws-run-reports">ws-run-reports</a> from
+          <span class="run-mono">layout/GFMPW18H1.oas</span> (md5 <span class="run-mono">e65f93005a41a1c997298f8b4abfc07c</span>).</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="dark-wrapper inverse-text">
+      <div class="container inner">
+        <div class="row">
+          <div class="col-md-12 col-lg-4 text-center text-lg-start">
+            <div class="widget">
+              <a href="https://wafer.space"><img src="https://wafer.space/assets/images/logo-light.webp" alt="wafer.space - Budget silicon manufacturing" /></a>
+              <div class="space20"></div>
+              <p>Budget silicon manufacturing.</p>
+            </div>
+          </div>
+          <div class="space30 d-lg-none d-xl-none"></div>
+          <div class="col-6 col-lg-4">
+            <div class="widget">
+              <h5 class="widget-title">MPW-18H1 · Google GF180MCU Test Shuttle (GlobalFoundries private MPW)</h5>
+              <ul class="list-unstyled mb-0">
+                <li><a href="index.html">Run overview</a></li>
+                <li><a href="https://github.com/wafer-space/google-gf180mcu-mpw18h1">Layout and manifest on GitHub</a></li>
+                <li><a href="https://github.com/wafer-space/google-gf180mcu-mpw18h1/blob/density-report/reticle_density_report.md">Density report</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="widget">
+              <h5 class="widget-title">About this page</h5>
+              <p class="small mb-0">Generated on 2026-10-17 by
+                <a href="https://github.com/wafer-space/ws-run-reports">ws-run-reports</a> from the public reticle
+                layout. Every figure is measured from the layout; the data files are linked from the overview.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://wafer.space/assets/js/jquery.min.js"></script>
+  <script src="https://wafer.space/assets/js/popper.min.js"></script>
+  <script src="https://wafer.space/assets/js/bootstrap.min.js"></script>
+  <script src="https://wafer.space/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="https://wafer.space/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="https://wafer.space/assets/js/plugins.js"></script>
+  <script src="https://wafer.space/assets/js/scripts.js"></script>
+  <script src="run.js?v=40d57e2766"></script>
+</body>
+</html>

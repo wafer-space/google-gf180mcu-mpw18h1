@@ -1,0 +1,21 @@
+slot_id,cell_name,device,source_class,ip_cell,ip_origin,count,area_um2,avg_area_um2,basis
+0003,0003_caravel_0_0,standard_cells_5v0,foundry,gf180mcu_fd_sc_mcu7t5v0,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),18509,,,confirmed: library cell name prefix
+0003,0003_caravel_0_0,custom_3v3,own,,,7590,751510.0,99.013,not in a recognised library or reused block
+0003,0003_caravel_0_0,mim,own,,,4,4800.0,1200.0,not in a recognised library or reused block
+0003,0003_caravel_0_0,poly_unsal,own,,,2,18.4,9.2,not in a recognised library or reused block
+0004,0004_caravel_2_0,pad_cells,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),578,,,confirmed: library cell name prefix
+0004,0004_caravel_2_0,standard_cells_5v0,foundry,gf180mcu_fd_sc_mcu7t5v0,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),1681,,,confirmed: library cell name prefix
+0004,0004_caravel_2_0,pad_nmos_6v,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),6981,95568.27,13.69,confirmed: inside pad library cells
+0004,0004_caravel_2_0,pad_nmos_sab_6v,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),264,11536.8,43.7,confirmed: inside pad library cells
+0004,0004_caravel_2_0,pad_nmoscap_6v,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),29410,595429.0,20.246,confirmed: inside pad library cells
+0004,0004_caravel_2_0,pad_pmos_6v,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),5022,21104.37,4.202,confirmed: inside pad library cells
+0004,0004_caravel_2_0,pad_pmos_sab_6v,foundry,gf180mcu_fd_io,GlobalFoundries GF180MCU PDK (gf180mcu_fd_*),396,11088.0,28.0,confirmed: inside pad library cells
+0004,0004_caravel_2_0,custom_3v3,own,,,39217,26499.442,0.676,not in a recognised library or reused block
+0004,0004_caravel_2_0,custom_5v,own,,,20,72.0,3.6,not in a recognised library or reused block
+0004,0004_caravel_2_0,custom_6v,own,,,18462,18462.0,1.0,not in a recognised library or reused block
+0004,0004_caravel_2_0,diode,own,,,32770,6902.579,0.211,not in a recognised library or reused block
+0004,0004_caravel_2_0,dnwell,own,,,34,24736.453,727.543,not in a recognised library or reused block
+0004,0004_caravel_2_0,hres,own,,,20,200.0,10.0,not in a recognised library or reused block
+0004,0004_caravel_2_0,mim,own,,,123,77176.0,627.447,not in a recognised library or reused block
+0004,0004_caravel_2_0,poly_unsal,own,,,1,9.2,9.2,not in a recognised library or reused block
+0002,0002_caravel_2_2,standard_cells_3v3,third_party,gf180mcu_osu_sc_gp9t3v3,Oklahoma State University (gf180mcu_osu_*),42964,,,confirmed: library cell name prefix

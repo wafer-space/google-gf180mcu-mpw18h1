@@ -1,0 +1,144 @@
+{
+ "px_per_mm": 400,
+ "reticle": {
+  "file": "reticle.webp",
+  "width_mm": 8.044,
+  "height_mm": 10.424,
+  "frame_width_mm": 30.0,
+  "frame_height_mm": 23.379,
+  "width_px": 3000,
+  "height_px": 2338
+ },
+ "styles": {
+  "full": "All layers",
+  "devices": "Transistors",
+  "routing": "Signal routing",
+  "power": "Power and pads"
+ },
+ "layers": {
+  "nwell": {
+   "label": "Nwell",
+   "colour": "#282c46"
+  },
+  "comp": {
+   "label": "Diffusion",
+   "colour": "#3cbe5a"
+  },
+  "poly": {
+   "label": "Polysilicon",
+   "colour": "#eb4646"
+  },
+  "metal1": {
+   "label": "Metal 1",
+   "colour": "#3c78ff"
+  },
+  "metal2": {
+   "label": "Metal 2",
+   "colour": "#c850e6"
+  },
+  "metal3": {
+   "label": "Metal 3",
+   "colour": "#32d2dc"
+  },
+  "metal4": {
+   "label": "Metal 4",
+   "colour": "#f0c83c"
+  },
+  "metal5": {
+   "label": "Metal 5",
+   "colour": "#f58c32"
+  },
+  "metaltop": {
+   "label": "Top metal",
+   "colour": "#e6e6eb"
+  },
+  "pad": {
+   "label": "Pad openings",
+   "colour": "#ffffff"
+  }
+ },
+ "placements": [
+  {
+   "code": "0003",
+   "x_mm": 0.06,
+   "y_mm": 0.06,
+   "width_mm": 3.932,
+   "height_mm": 5.122
+  },
+  {
+   "code": "0001",
+   "x_mm": 0.06,
+   "y_mm": 5.242,
+   "width_mm": 3.932,
+   "height_mm": 5.122
+  },
+  {
+   "code": "0004",
+   "x_mm": 4.052,
+   "y_mm": 0.06,
+   "width_mm": 3.932,
+   "height_mm": 5.122
+  },
+  {
+   "code": "0002",
+   "x_mm": 4.052,
+   "y_mm": 5.242,
+   "width_mm": 3.932,
+   "height_mm": 5.122
+  }
+ ],
+ "designs": {
+  "0001": {
+   "width_px": 1573,
+   "height_px": 2049,
+   "width_mm": 3.932,
+   "height_mm": 5.122,
+   "files": {
+    "full": "0001_full.webp",
+    "thumb": "0001_thumb.webp",
+    "devices": "0001_devices.webp",
+    "routing": "0001_routing.webp",
+    "power": "0001_power.webp"
+   }
+  },
+  "0002": {
+   "width_px": 1573,
+   "height_px": 2049,
+   "width_mm": 3.932,
+   "height_mm": 5.122,
+   "files": {
+    "full": "0002_full.webp",
+    "thumb": "0002_thumb.webp",
+    "devices": "0002_devices.webp",
+    "routing": "0002_routing.webp",
+    "power": "0002_power.webp"
+   }
+  },
+  "0003": {
+   "width_px": 1573,
+   "height_px": 2049,
+   "width_mm": 3.932,
+   "height_mm": 5.122,
+   "files": {
+    "full": "0003_full.webp",
+    "thumb": "0003_thumb.webp",
+    "devices": "0003_devices.webp",
+    "routing": "0003_routing.webp",
+    "power": "0003_power.webp"
+   }
+  },
+  "0004": {
+   "width_px": 1573,
+   "height_px": 2049,
+   "width_mm": 3.932,
+   "height_mm": 5.122,
+   "files": {
+    "full": "0004_full.webp",
+    "thumb": "0004_thumb.webp",
+    "devices": "0004_devices.webp",
+    "routing": "0004_routing.webp",
+    "power": "0004_power.webp"
+   }
+  }
+ }
+}

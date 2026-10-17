@@ -1,0 +1,15 @@
+slot_id,cell_name,feature,count,area_um2
+0003,0003_caravel_0_0,gates_3v3,7590,751510.000
+0003,0003_caravel_0_0,mim,4,4800.000
+0003,0003_caravel_0_0,mim_on_metal4,4,4800.000
+0003,0003_caravel_0_0,res_poly_unsalicided,2,18.400
+0004,0004_caravel_2_0,dnwell,34,24736.453
+0004,0004_caravel_2_0,gates_3v3,39217,26499.442
+0004,0004_caravel_2_0,gates_5v,20,72.000
+0004,0004_caravel_2_0,gates_6v,18462,18462.000
+0004,0004_caravel_2_0,io:gf180mcu_fd_io,578,0.000
+0004,0004_caravel_2_0,mim,123,77176.000
+0004,0004_caravel_2_0,mim_on_metal2,2,576.000
+0004,0004_caravel_2_0,mim_on_metal4,123,77176.000
+0004,0004_caravel_2_0,res_poly_high,20,200.000
+0004,0004_caravel_2_0,res_poly_unsalicided,1,9.200

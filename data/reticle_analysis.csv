@@ -1,0 +1,5 @@
+slot_id,cell_name,width_mm,height_mm,pos_x_mm,pos_y_mm,pad_count,sram_block_count,stdcell_count,transistor_count,bond_pad_count,probe_pad_count,pad_label_count,pad_artwork_count
+0003,0003_caravel_0_0,3.93,5.12,0.06,0.06,107,0,800,113117,63,44,0,0
+0001,0001_caravel_0_2,3.93,5.12,0.06,5.24,523,0,0,0,63,460,1814,0
+0004,0004_caravel_2_0,3.93,5.12,4.05,0.06,136,0,248,104169,136,0,0,0
+0002,0002_caravel_2_2,3.93,5.12,4.05,5.24,63,0,7341,54594,63,0,0,0
