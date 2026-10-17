@@ -1,0 +1,59 @@
+# MPW-18H1 schedule, in the format of the wafer.space website's _data/runs.yml
+# so the wafer.space run report tools can render it as the shuttle timeline.
+#
+# A rough schedule: MPW-18H1 was a private test shuttle that Google ran on
+# GlobalFoundries' MPW service, and no schedule for it was published. The dates
+# are taken from what the shuttle left behind:
+# - The googlesource shuttle repositories (third_party/shuttle/gf180mcu/mpw-18h1):
+#   Google (Johan Euphrosine) added the tapeout flow to all four slots on
+#   2023-02-01; the designers' last commits are 2023-02-26 (slot-002, "Added
+#   final archive for GF submission"), 2023-02-27 (slot-001), 2023-03-01
+#   (slot-004, "GDS minimum v4 TO") and 2023-03-03 (slot-003, macros updated by
+#   Google); the final dies (tapeout/outputs/gds/caravel_<ID>.gds.gz) and the
+#   foundry manifest were committed on 2023-12-20.
+# - The final dies' GDS headers (BGNLIB): written 2023-03-02 (18100001,
+#   18100003, 18100004) and 2023-03-03 (18100002).
+# - A. Li et al., "Rapid Prototyping of Laser-Induced Graphene Sensors With
+#   Open-Source Silicon", IEEE Solid-State Circuits Magazine 16(2), 2024, about
+#   the measured 18100004 silicon; DOI registered 2024-07-03 (Crossref).
+#   https://doi.org/10.1109/MSSC.2024.3380586
+# - Silicon Prawn die photographs (map/efabless/<die>/single/ file dates):
+#   2025-06-17 (18100004, and the GFMPW-0 dies) and 2025-07-05 (18100001).
+# The fabrication, packaging and delivery dates are not known.
+
+runs:
+  gfmpw_18h1:
+    name: "MPW-18H1"
+    process: "GF180MCU"
+    status: "complete"
+    timeline:
+      - title: "Tapeout Flow Set Up"
+        date: "2023-02-01"
+        display_date: "1 February 2023"
+        description: "Google adds the GF180MCU tapeout flow to the four Caravel project repositories"
+        status: "milestone"
+      - title: "Designs Submitted"
+        date: "2023-03-01"
+        display_date: "26 February – 3 March 2023"
+        description: "The designers' final layouts for GF submission"
+        status: "milestone"
+      - title: "Tapeout"
+        date: "2023-03-03"
+        display_date: "about 3 March 2023"
+        description: "Final Caravel dies written (2–3 March) for GlobalFoundries' private MPW run 18H1"
+        status: "critical"
+      - title: "Final Dies Published"
+        date: "2023-12-20"
+        display_date: "20 December 2023"
+        description: "Google publishes the final dies and the shuttle manifest at foss-eda-tools.googlesource.com"
+        status: "milestone"
+      - title: "Silicon Results Published"
+        date: "2024-07-03"
+        display_date: "2024"
+        description: "Measured results of the OpenFASoC analog front-end (0004) in IEEE Solid-State Circuits Magazine"
+        status: "delivery"
+      - title: "Die Photographs"
+        date: "2025-06-17"
+        display_date: "June – July 2025"
+        description: "John McMaster photographs dies 0001 and 0004 for Silicon Prawn"
+        status: "milestone"
