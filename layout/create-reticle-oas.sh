@@ -1,4 +1,4 @@
 #!/bin/sh
 set -Ce
 cat GFMPW18H1-part-* > GFMPW18H1.oas
-echo "9656625041036d94d27bf52af8eb2a8d  GFMPW18H1.oas" | md5sum -c
+echo "e65f93005a41a1c997298f8b4abfc07c  GFMPW18H1.oas" | md5sum -c
