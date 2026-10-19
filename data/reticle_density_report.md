@@ -170,31 +170,31 @@ Which transistor voltages and optional devices of the GF180MCU process the 4 des
 
 | Transistor voltage | Designs | Which |
 |---|---|---|
-| 3.3 V | 3 of 4 | [0002](https://wafer.space/google-gf180mcu-mpw18h1/projects/0002.html), [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| 5 V | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| 6 V | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [3.3 V](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs_1.html) | 3 of 4 | [0002](https://wafer.space/google-gf180mcu-mpw18h1/projects/0002.html), [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [5 V](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs_3.html) | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [6 V](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs_2.html) | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
 
 | Device | Designs drawing it | Which |
 |---|---|---|
-| MIM capacitors | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| Unsalicided poly resistors | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| High-resistance poly resistors | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| Diodes (DIODE_MK) | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| Deep N-well | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
-| Native transistors | 0 of 4 | — |
-| 10 V LDMOS | 0 of 4 | — |
-| MOS capacitors | 0 of 4 | — |
-| Salicided poly resistors | 0 of 4 | — |
-| Diffusion resistors | 0 of 4 | — |
-| N-well resistors | 0 of 4 | — |
-| Metal resistors | 0 of 4 | — |
-| Well diodes | 0 of 4 | — |
-| Bipolar transistors | 0 of 4 | — |
-| Schottky diodes | 0 of 4 | — |
-| Zener diodes | 0 of 4 | — |
-| eFuses | 0 of 4 | — |
-| One-time programmable memory | 0 of 4 | — |
-| Inductors | 0 of 4 | — |
+| [MIM capacitors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_4_2.html) | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [Unsalicided poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_01.html) | 2 of 4 | [0003](https://wafer.space/google-gf180mcu-mpw18h1/projects/0003.html), [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [High-resistance poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_03.html) | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [Diodes (DIODE_MK)](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_3.html) | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [Deep N-well](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_03.html) | 1 of 4 | [0004](https://wafer.space/google-gf180mcu-mpw18h1/projects/0004.html) |
+| [Native transistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_05.html) | 0 of 4 | — |
+| [10 V LDMOS](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_12_1.html) | 0 of 4 | — |
+| [MOS capacitors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_6.html) | 0 of 4 | — |
+| [Salicided poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 4 | — |
+| [Diffusion resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 4 | — |
+| [N-well resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 4 | — |
+| [Metal resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 4 | — |
+| [Well diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_3.html) | 0 of 4 | — |
+| [Bipolar transistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_5.html) | 0 of 4 | — |
+| [Schottky diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_14.html) | 0 of 4 | — |
+| [Zener diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html) | 0 of 4 | — |
+| [eFuses](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_11.html) | 0 of 4 | — |
+| [One-time programmable memory](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_10.html) | 0 of 4 | — |
+| [Inductors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html) | 0 of 4 | — |
 
 | Design | Voltages | Custom transistors 3.3 / 5 / 6 V | Devices drawn | I/O library |
 |---|---|---|---|---|
